@@ -7,14 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0AB5812C22FFD6B500E4DFC9 /* CancelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB5812B22FFD6B500E4DFC9 /* CancelViewController.swift */; };
+		0AB5812E22FFDB0900E4DFC9 /* MoreCancelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB5812D22FFDB0900E4DFC9 /* MoreCancelViewController.swift */; };
 		0AFAA6FC22FF1E9C00C2149A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AFAA6FB22FF1E9C00C2149A /* AppDelegate.swift */; };
 		0AFAA6FE22FF1E9C00C2149A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AFAA6FD22FF1E9C00C2149A /* ViewController.swift */; };
 		0AFAA70122FF1E9C00C2149A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AFAA6FF22FF1E9C00C2149A /* Main.storyboard */; };
 		0AFAA70322FF1E9D00C2149A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AFAA70222FF1E9D00C2149A /* Assets.xcassets */; };
 		0AFAA70622FF1E9D00C2149A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AFAA70422FF1E9D00C2149A /* LaunchScreen.storyboard */; };
+		0AFAA70E22FF1EE100C2149A /* PopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AFAA70D22FF1EE100C2149A /* PopViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0AB5812B22FFD6B500E4DFC9 /* CancelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CancelViewController.swift; sourceTree = "<group>"; };
+		0AB5812D22FFDB0900E4DFC9 /* MoreCancelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreCancelViewController.swift; sourceTree = "<group>"; };
 		0AFAA6F822FF1E9C00C2149A /* Johnny_WEMOdemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Johnny_WEMOdemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AFAA6FB22FF1E9C00C2149A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0AFAA6FD22FF1E9C00C2149A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +27,7 @@
 		0AFAA70222FF1E9D00C2149A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0AFAA70522FF1E9D00C2149A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0AFAA70722FF1E9D00C2149A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0AFAA70D22FF1EE100C2149A /* PopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +61,11 @@
 			isa = PBXGroup;
 			children = (
 				0AFAA6FB22FF1E9C00C2149A /* AppDelegate.swift */,
-				0AFAA6FD22FF1E9C00C2149A /* ViewController.swift */,
 				0AFAA6FF22FF1E9C00C2149A /* Main.storyboard */,
+				0AFAA6FD22FF1E9C00C2149A /* ViewController.swift */,
+				0AFAA70D22FF1EE100C2149A /* PopViewController.swift */,
+				0AB5812B22FFD6B500E4DFC9 /* CancelViewController.swift */,
+				0AB5812D22FFDB0900E4DFC9 /* MoreCancelViewController.swift */,
 				0AFAA70222FF1E9D00C2149A /* Assets.xcassets */,
 				0AFAA70422FF1E9D00C2149A /* LaunchScreen.storyboard */,
 				0AFAA70722FF1E9D00C2149A /* Info.plist */,
@@ -135,8 +144,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0AB5812E22FFDB0900E4DFC9 /* MoreCancelViewController.swift in Sources */,
 				0AFAA6FE22FF1E9C00C2149A /* ViewController.swift in Sources */,
 				0AFAA6FC22FF1E9C00C2149A /* AppDelegate.swift in Sources */,
+				0AB5812C22FFD6B500E4DFC9 /* CancelViewController.swift in Sources */,
+				0AFAA70E22FF1EE100C2149A /* PopViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
